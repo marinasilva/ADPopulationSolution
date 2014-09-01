@@ -15,6 +15,7 @@ namespace ADPopulationApp
            // SearchMethod();
             //CreateOU();
             CreateUser();
+
            //CreateSubOU();
             
             //DirectoryEntry user = new DirectoryEntry("LDAP://cn=userTest,dc=testes,dc=nddigital");

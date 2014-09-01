@@ -4,3 +4,6 @@ c:\users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution
 c:\users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.csprojResolveAssemblyReference.cache
 c:\users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.exe
 c:\users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.pdb
+C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\bin\Debug\ADPopulationApp.exe.config
+C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.exe
+C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.pdb
