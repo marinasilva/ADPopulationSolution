@@ -20,6 +20,8 @@ namespace ADPopulationApp
             
             //DirectoryEntry user = new DirectoryEntry("LDAP://cn=userTest,dc=testes,dc=nddigital");
             //DirectoryEntry ou = user.Parent;
+
+
             //ou.Children.Remove(user);
             //ou.CommitChanges();
         }
