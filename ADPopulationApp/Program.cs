@@ -13,22 +13,19 @@ namespace ADPopulationApp
         static void Main(string[] args)
         {
            // SearchMethod();
-            //CreateOU();
-            CreateUser();
-
+            CreateOU();
+            //CreateUser();
            //CreateSubOU();
             
             //DirectoryEntry user = new DirectoryEntry("LDAP://cn=userTest,dc=testes,dc=nddigital");
             //DirectoryEntry ou = user.Parent;
-
-
             //ou.Children.Remove(user);
             //ou.CommitChanges();
         }
 
         private static void CreateUser()
         {
-            DirectoryEntry deBase = new DirectoryEntry("LDAP://Testes", "marina", "ndd@123");
+            DirectoryEntry deBase = new DirectoryEntry("LDAP://Marina", "marina", "ndd@123");
             string name;
             for (int i = 0; i<3000; i++)
             {
@@ -105,7 +102,7 @@ namespace ADPopulationApp
         }
         private static void CreateOU()
         {
-            DirectoryEntry deBase = new DirectoryEntry("LDAP://Testes", "marina", "ndd@123");
+            DirectoryEntry deBase = new DirectoryEntry("LDAP://172.31.115.100", @"marina\marina", "ndd@123");
             DirectoryEntry entry = deBase.Children.Add("OU=1", "organizationalUnit");
             entry.CommitChanges();
         }
