@@ -1,4 +1,4 @@
-﻿namespace ADPopulationApp
+﻿namespace ADPopulationApp.UI
 {
     partial class LoginForm
     {
@@ -31,9 +31,9 @@
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.txbDomain = new MetroFramework.Controls.MetroTextBox();
+            this.txbUser = new MetroFramework.Controls.MetroTextBox();
+            this.txbPass = new MetroFramework.Controls.MetroTextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
@@ -65,26 +65,26 @@
             this.metroLabel3.TabIndex = 2;
             this.metroLabel3.Text = "Senha:";
             // 
-            // metroTextBox1
+            // txbDomain
             // 
-            this.metroTextBox1.Location = new System.Drawing.Point(124, 83);
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.Size = new System.Drawing.Size(127, 23);
-            this.metroTextBox1.TabIndex = 3;
+            this.txbDomain.Location = new System.Drawing.Point(124, 83);
+            this.txbDomain.Name = "txbDomain";
+            this.txbDomain.Size = new System.Drawing.Size(127, 23);
+            this.txbDomain.TabIndex = 3;
             // 
-            // metroTextBox2
+            // txbUser
             // 
-            this.metroTextBox2.Location = new System.Drawing.Point(124, 114);
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.Size = new System.Drawing.Size(127, 23);
-            this.metroTextBox2.TabIndex = 4;
+            this.txbUser.Location = new System.Drawing.Point(124, 114);
+            this.txbUser.Name = "txbUser";
+            this.txbUser.Size = new System.Drawing.Size(127, 23);
+            this.txbUser.TabIndex = 4;
             // 
-            // metroTextBox3
+            // txbPass
             // 
-            this.metroTextBox3.Location = new System.Drawing.Point(124, 143);
-            this.metroTextBox3.Name = "metroTextBox3";
-            this.metroTextBox3.Size = new System.Drawing.Size(127, 23);
-            this.metroTextBox3.TabIndex = 5;
+            this.txbPass.Location = new System.Drawing.Point(124, 143);
+            this.txbPass.Name = "txbPass";
+            this.txbPass.Size = new System.Drawing.Size(127, 23);
+            this.txbPass.TabIndex = 5;
             // 
             // metroButton1
             // 
@@ -93,6 +93,7 @@
             this.metroButton1.Size = new System.Drawing.Size(75, 23);
             this.metroButton1.TabIndex = 6;
             this.metroButton1.Text = "Entrar";
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // metroButton2
             // 
@@ -102,20 +103,22 @@
             this.metroButton2.TabIndex = 7;
             this.metroButton2.Text = "Limpar";
             // 
-            // Form1
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(300, 233);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.metroTextBox3);
-            this.Controls.Add(this.metroTextBox2);
-            this.Controls.Add(this.metroTextBox1);
+            this.Controls.Add(this.txbPass);
+            this.Controls.Add(this.txbUser);
+            this.Controls.Add(this.txbDomain);
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
-            this.Name = "Form1";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "LoginForm";
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -127,9 +130,9 @@
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel3;
-        private MetroFramework.Controls.MetroTextBox metroTextBox1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox2;
-        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private MetroFramework.Controls.MetroTextBox txbDomain;
+        private MetroFramework.Controls.MetroTextBox txbUser;
+        private MetroFramework.Controls.MetroTextBox txbPass;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton2;
 

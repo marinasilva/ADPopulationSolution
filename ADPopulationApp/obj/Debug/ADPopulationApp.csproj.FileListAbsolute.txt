@@ -12,3 +12,6 @@ C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution
 C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.Form1.resources
 C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.csproj.GenerateResource.Cache
+C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\bin\Debug\ADPopulationApp.exe
+C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\bin\Debug\ADPopulationApp.pdb
+C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.csprojResolveAssemblyReference.cache
