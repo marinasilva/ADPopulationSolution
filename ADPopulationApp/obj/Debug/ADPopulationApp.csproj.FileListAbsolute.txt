@@ -7,3 +7,8 @@ c:\users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution
 C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\bin\Debug\ADPopulationApp.exe.config
 C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.exe
 C:\Users\luis.moraes\Documents\GitHub\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.pdb
+C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\bin\Debug\MetroFramework.Design.dll
+C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\bin\Debug\MetroFramework.dll
+C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.Form1.resources
+C:\Users\marina.silva\documents\visual studio 2013\Projects\ADPopulationSolution\ADPopulationApp\obj\Debug\ADPopulationApp.csproj.GenerateResource.Cache

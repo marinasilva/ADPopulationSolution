@@ -12,11 +12,12 @@ namespace ADPopulationApp
     {
         static void Main(string[] args)
         {
-           // SearchMethod();
-            CreateOU();
-            //CreateUser();
-           //CreateSubOU();
             
+            // SearchMethod();
+            // CreateOU();
+            //CreateUser();
+            //CreateSubOU();
+
             //DirectoryEntry user = new DirectoryEntry("LDAP://cn=userTest,dc=testes,dc=nddigital");
             //DirectoryEntry ou = user.Parent;
             //ou.Children.Remove(user);
